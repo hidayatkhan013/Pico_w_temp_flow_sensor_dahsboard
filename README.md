@@ -104,23 +104,19 @@ Flow Sensor:
 5. Start Mosquitto Suscriber:
    - Open Command Prompt
    ```cmd
-   Python Broker.py
+   Python Broker/Broker.py
    ```
 
-### 4. Backend Setup
+### 4. API Setup -> Express
 
 1. Clone the repository using Git Bash or download ZIP:
    ```bash
    git https://github.com/hidayatkhan013/Pico_w_temp_flow_sensor_dahsboard.git
-   cd Pico_w_temp_flow_sensor_dahsboard
-   ```
-
-2. Run Backend Express API:
-   ```cmd
-   cd Backend
+   cd Pico_w_temp_flow_sensor_dahsboard/API
    node Server.cjs
    ```
    Server will run on http://localhost:3001
+
 
 ### 5. Frontend Setup
 
