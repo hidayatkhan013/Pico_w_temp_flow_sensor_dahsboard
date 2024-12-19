@@ -1,79 +1,110 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Energy and Water Usage Monitoring Application
 
-# Getting Started
+This project provides a comprehensive solution for monitoring energy and water usage. It includes features for calculating bills, analyzing consumption patterns, and displaying data through interactive charts and tables. The app is designed for residential and commercial users, providing insightful and actionable data.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+### 1. **Data Display Screen**
+   - Displays real-time and historical data in tabular form.
+   - Data includes:
+     - Flow rate (L/min)
+     - Temperature (°C)
+     - Timestamps
+   - JSON data is dynamically loaded and displayed.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### 2. **Graphical Analysis Screen**
+   - Visual representation of:
+     - Water temperature
+     - Energy usage
+     - Water flow rate
+     - Total water consumption
+     - Billing costs
+   - Features:
+     - Threshold marking: Highlights consumption that exceeds average daily usage (marked in red).
+     - Well-structured and aesthetically pleasing charts with corrected x and y axis points.
+     - Easy-to-read breakdown of pricing and key insights.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### 3. **Bill Calculation**
+   - Calculates energy and water bills based on:
+     - House types (e.g., detached house, terraced house).
+     - Consumption patterns from JSON data.
+   - Billing calculations incorporate:
+     - Fixed fees
+     - Power fees
+     - Reactive power fees
+     - Energy taxes (categories I and II).
 
-```bash
-# using npm
-npm start
+### 4. **Threshold Alerts**
+   - Alerts users when:
+     - Energy consumption exceeds normal human usage.
+     - Water consumption or billing surpasses average values.
+   - Enables users to monitor and adjust their usage habits.
 
-# OR using Yarn
-yarn start
+### 5. **Dynamic Data Handling**
+   - Reads JSON data for water flow rate, temperature, and timestamps.
+   - Performs calculations to generate insights for various house types.
+
+---
+
+## Project Structure
+
+### Files and Folders:
+1. **`TableScreen.tsx`**
+   - Displays JSON data in a table format.
+   - Dynamically updates based on provided JSON input.
+
+2. **`GraphScreen.tsx`**
+   - Implements graphs for analyzing energy and water usage.
+   - Includes user-friendly visual elements and thresholds.
+
+3. **`database.ts`**
+   - Handles fetching and processing of JSON data.
+   - Provides calculated insights for charts and tables.
+
+4. **Assets**
+   - JSON data file with sample readings for testing.
+
+### Dependencies:
+- `react-native-chart-kit`: For graphical representation of data.
+- `react-native`: Core framework for building UI.
+
+---
+
+## Minimum Information Technology (MIT) Requirements
+
+### Hardware:
+- Device with at least 2GB RAM.
+- Minimum 50MB of storage space for app installation and data.
+- Android/iOS devices with versions above Android 8.0 or iOS 12.
+
+### Software:
+- Node.js for app development and dependency management.
+- React Native CLI for running and debugging the app.
+
+### Network:
+- Stable internet connection for real-time data updates (optional).
+
+### Data:
+- JSON file containing water and energy usage data.
+- Data should follow a structured format:
+
+```json
+[
+  {
+    "flow_rate": 11.8,
+    "id": 1,
+    "temperature": 24.33,
+    "timestamp": "1733968106"
+  }
+]
 ```
 
-## Step 2: Start your Application
+---
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## How to Run
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the app with `npm start`.
+4. Load the app on a device/emulator.
+5. Place the JSON file in the project directory.
+6. View tabular and graphical data in respective screens.
