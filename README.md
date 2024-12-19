@@ -1,4 +1,4 @@
-# Energy and Water Usage Monitoring Application
+# Smart Water and Energy Consumption System
 
 This project provides a comprehensive solution for monitoring energy and water usage. It includes features for calculating bills, analyzing consumption patterns, and displaying data through interactive charts and tables. The app is designed for residential and commercial users, providing insightful and actionable data.
 
@@ -10,7 +10,7 @@ This project provides a comprehensive solution for monitoring energy and water u
      - Flow rate (L/min)
      - Temperature (°C)
      - Timestamps
-   - JSON data is dynamically loaded and displayed.
+   - SqLite data is dynamically loaded and displayed.
 
 ### 2. **Graphical Analysis Screen**
    - Visual representation of:
@@ -27,7 +27,7 @@ This project provides a comprehensive solution for monitoring energy and water u
 ### 3. **Bill Calculation**
    - Calculates energy and water bills based on:
      - House types (e.g., detached house, terraced house).
-     - Consumption patterns from JSON data.
+     - Consumption patterns from SqLite data.
    - Billing calculations incorporate:
      - Fixed fees
      - Power fees
@@ -41,7 +41,7 @@ This project provides a comprehensive solution for monitoring energy and water u
    - Enables users to monitor and adjust their usage habits.
 
 ### 5. **Dynamic Data Handling**
-   - Reads JSON data for water flow rate, temperature, and timestamps.
+   - Reads SqLite data for water flow rate, temperature, and timestamps.
    - Performs calculations to generate insights for various house types.
 
 ---
@@ -50,7 +50,7 @@ This project provides a comprehensive solution for monitoring energy and water u
 
 ### Files and Folders:
 1. **`TableScreen.tsx`**
-   - Displays JSON data in a table format.
+   - Displays SqLite data in a table format.
    - Dynamically updates based on provided JSON input.
 
 2. **`GraphScreen.tsx`**
@@ -58,11 +58,11 @@ This project provides a comprehensive solution for monitoring energy and water u
    - Includes user-friendly visual elements and thresholds.
 
 3. **`database.ts`**
-   - Handles fetching and processing of JSON data.
+   - Handles fetching and processing of SqLite data.
    - Provides calculated insights for charts and tables.
 
 4. **Assets**
-   - JSON data file with sample readings for testing.
+   - SqLite data file with sample readings for testing.
 
 ### Dependencies:
 - `react-native-chart-kit`: For graphical representation of data.
@@ -73,30 +73,26 @@ This project provides a comprehensive solution for monitoring energy and water u
 ## Minimum Information Technology (MIT) Requirements
 
 ### Hardware:
-- Device with at least 2GB RAM.
-- Minimum 50MB of storage space for app installation and data.
+- Device with at least 4GB RAM.
+- Minimum 16050MB of storage space for app installation and data.
 - Android/iOS devices with versions above Android 8.0 or iOS 12.
 
 ### Software:
 - Node.js for app development and dependency management.
 - React Native CLI for running and debugging the app.
+- Andriod Studio for andriod application 
+- XCode for Ios App
 
 ### Network:
 - Stable internet connection for real-time data updates (optional).
 
 ### Data:
-- JSON file containing water and energy usage data.
+- SqLite file containing water and energy usage data.
 - Data should follow a structured format:
 
-```json
-[
-  {
-    "flow_rate": 11.8,
-    "id": 1,
-    "temperature": 24.33,
-    "timestamp": "1733968106"
-  }
-]
+```SqLite Data Sample
+![image](https://github.com/user-attachments/assets/e974125b-e2b6-42b5-9561-b3602f0b9e5a)
+
 ```
 
 ---
