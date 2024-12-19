@@ -1,192 +1,79 @@
-# Smart Water Monitoring System
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-A comprehensive IoT solution for monitoring water flow and temperature using Raspberry Pi Pico W, with real-time data visualization and analysis.
+# Getting Started
 
-### Default credentails ``` admin admin ```
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## System Architecture
+## Step 1: Start the Metro Server
 
-![System Architecture](./images/achi.png)
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-## System Flow
+To start Metro, run the following command from the _root_ of your React Native project:
 
-![System Flow](./images/flow.png)
+```bash
+# using npm
+npm start
 
-## System Sequence Diagram
-
-![System Sequence](./images/seq.png)
-
-This system consists of several key components:
-- **Hardware Layer**: Pico W microcontroller with BMP280 temperature sensor and YF-S201 flow sensor
-- **Data Collection**: MQTT broker for real-time data transmission
-- **Backend**: SQLite database and Express.js API server
-- **Frontend**: Web-based dashboard for real-time monitoring
-
-## Features
-
-- Real-time water flow monitoring
-- Temperature tracking
-- Historical data analysis
-- Monthly cost calculations
-- RESTful API endpoints
-- Web-based dashboard
-
-## Hardware Requirements
-
-- Raspberry Pi Pico W
-- BMP280 Temperature Sensor
-- YF-S201 Water Flow Sensor
-- Basic wiring components
-
-## Software Prerequisites
-
-1. Install [Node.js](https://nodejs.org/) (v14 or higher)
-2. Install [Python 3.7+](https://www.python.org/downloads/)
-3. Install [MQTT Broker (Mosquitto)](https://mosquitto.org/download/)
-4. Download [SQLite](https://www.sqlite.org/download.html)
-5. Download [Thonny IDE](https://thonny.org/) for Pico W programming
-
-## Installation
-
-### 1. Hardware Setup
-
-Connect the sensors to Pico W:
-```
-BMP280:
-- SDA -> GPIO 0
-- SCL -> GPIO 1
-- VCC -> 3.3V
-- GND -> GND
-
-Flow Sensor:
-- Signal -> GPIO 15
-- VCC -> 5V
-- GND -> GND
+# OR using Yarn
+yarn start
 ```
 
-### 2. Pico W Setup
+## Step 2: Start your Application
 
-1. Connect Pico W to your computer and open Thonny IDE
-2. Install MicroPython:
-   - Hold BOOTSEL button while connecting Pico W
-   - Download MicroPython UF2 file from [official website](https://micropython.org/download/rp2-pico-w/)
-   - Drag and drop the UF2 file to the RPI-RP2 drive
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-3. Copy the following files to Pico W using Thonny:
-   ```
-   pico_code/
-   ├── main.py
-   ├── bmp280.py
-   ```
-4. Update Wi-Fi credentials
+### For Android
 
-### 3. MQTT Broker Setup (Windows)
+```bash
+# using npm
+npm run android
 
-1. Install Mosquitto from the [official website](https://mosquitto.org/download/)
-2. Add Mosquitto to System Path:
-   - Right-click on 'This PC' > Properties > Advanced system settings
-   - Environment Variables > System Variables > Path
-   - Add `C:\Program Files\Mosquitto`
-
-3. Configure Mosquitto:
-   - Open `C:\Program Files\Mosquitto\mosquitto.conf`
-   - Add these lines:
-     ```
-     listener 6000
-     allow_anonymous true
-     ```
-
-4. Start Mosquitto Service:
-   - Open Command Prompt as Administrator
-   ```cmd
-   net start mosquitto
-   ```
-5. Start Mosquitto Suscriber:
-   - Open Command Prompt
-   ```cmd
-   Python Broker/Broker.py
-   ```
-
-### 4. API Setup -> Express
-
-1. Clone the repository using Git Bash or download ZIP:
-   ```bash
-   git https://github.com/hidayatkhan013/Pico_w_temp_flow_sensor_dahsboard.git
-   cd Pico_w_temp_flow_sensor_dahsboard/API
-   node Server.cjs
-   ```
-   Server will run on http://localhost:3001
-
-
-### 5. Frontend Setup
-
-1. Install dependencies:
-   ```cmd
-   cd frontend
-   npm install or npm i
-   ```
-
-2. Start the development server:
-   ```cmd
-   npm run dev
-   ```
-   Frontend will run on http://localhost:8080
-
-## API Endpoints
-
-### GET /api/latest-reading
-Returns the most recent sensor reading
-
-### GET /api/sensor-history/:type
-Returns historical data for specified sensor type (flow or temperature)
-
-### GET /api/monthly-expenses
-Returns monthly water usage costs
-
-## Database Schema
-
-```sql
-CREATE TABLE sensor_data (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    flow_rate REAL,
-    temperature REAL,
-    timestamp INTEGER
-);
+# OR using Yarn
+yarn android
 ```
 
-## Troubleshooting
+### For iOS
 
-### Common Issues:
+```bash
+# using npm
+npm run ios
 
-1. **MQTT Connection Issues**:
-   - Ensure Mosquitto service is running
-   - Check if port 6000 is not blocked by firewall
-   - Verify mosquitto.conf settings
+# OR using Yarn
+yarn ios
+```
 
-2. **Pico W Connection**:
-   - Verify COM port in Device Manager
-   - Check Wi-Fi credentials in config.py
-   - Ensure proper power supply
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-3. **Database Issues**:
-   - Check if database path exists
-   - Verify write permissions in the data directory
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-4. **Node.js Issues**:
-   - Clear npm cache: `npm cache clean --force`
-   - Delete node_modules and run `npm install` again
+## Step 3: Modifying your App
 
-## Contributing
+Now that you have successfully run the app, let's modify it.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Acknowledgments
+## Congratulations! :tada:
 
-- BMP280 library for MicroPython
-- Express.js community
-- MQTT community
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

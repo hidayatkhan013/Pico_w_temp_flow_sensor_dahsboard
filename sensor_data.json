@@ -1,0 +1,992 @@
+[
+    {
+        "flow_rate": 11.8,
+        "id": 1,
+        "temperature": 24.33,
+        "timestamp": "1733968106"
+    },
+    {
+        "flow_rate": 15.99,
+        "id": 2,
+        "temperature": 24.33,
+        "timestamp": "1733968111"
+    },
+    {
+        "flow_rate": 10.03,
+        "id": 3,
+        "temperature": 24.33,
+        "timestamp": "1733968113"
+    },
+    {
+        "flow_rate": 9.5,
+        "id": 4,
+        "temperature": 24.32,
+        "timestamp": "1733968115"
+    },
+    {
+        "flow_rate": 19.95,
+        "id": 5,
+        "temperature": 24.32,
+        "timestamp": "1733968117"
+    },
+    {
+        "flow_rate": 4.06,
+        "id": 6,
+        "temperature": 24.32,
+        "timestamp": "1733968126"
+    },
+    {
+        "flow_rate": 13.22,
+        "id": 7,
+        "temperature": 24.32,
+        "timestamp": "1733968131"
+    },
+    {
+        "flow_rate": 6.7,
+        "id": 8,
+        "temperature": 24.33,
+        "timestamp": "1733968129"
+    },
+    {
+        "flow_rate": 4.7,
+        "id": 9,
+        "temperature": 24.32,
+        "timestamp": "1733968133"
+    },
+    {
+        "flow_rate": 15.08,
+        "id": 10,
+        "temperature": 24.32,
+        "timestamp": "1733968135"
+    },
+    {
+        "flow_rate": 11.91,
+        "id": 11,
+        "temperature": 24.33,
+        "timestamp": "1733968199"
+    },
+    {
+        "flow_rate": 10.82,
+        "id": 12,
+        "temperature": 24.33,
+        "timestamp": "1733968204"
+    },
+    {
+        "flow_rate": 4.36,
+        "id": 13,
+        "temperature": 24.33,
+        "timestamp": "1733968202"
+    },
+    {
+        "flow_rate": 2.4,
+        "id": 14,
+        "temperature": 24.32,
+        "timestamp": "1733968218"
+    },
+    {
+        "flow_rate": 16.51,
+        "id": 15,
+        "temperature": 24.32,
+        "timestamp": "1733968220"
+    },
+    {
+        "flow_rate": 13.96,
+        "id": 16,
+        "temperature": 24.32,
+        "timestamp": "1733968222"
+    },
+    {
+        "flow_rate": 2.58,
+        "id": 17,
+        "temperature": 24.32,
+        "timestamp": "1733968224"
+    },
+    {
+        "flow_rate": 12.14,
+        "id": 18,
+        "temperature": 24.32,
+        "timestamp": "1733968226"
+    },
+    {
+        "flow_rate": 9.29,
+        "id": 19,
+        "temperature": 24.32,
+        "timestamp": "1733968265"
+    },
+    {
+        "flow_rate": 6.43,
+        "id": 20,
+        "temperature": 24.32,
+        "timestamp": "1733968269"
+    },
+    {
+        "flow_rate": 9.52,
+        "id": 21,
+        "temperature": 24.32,
+        "timestamp": "1733968267"
+    },
+    {
+        "flow_rate": 16.05,
+        "id": 22,
+        "temperature": 24.32,
+        "timestamp": "1733968271"
+    },
+    {
+        "flow_rate": 2.36,
+        "id": 23,
+        "temperature": 24.32,
+        "timestamp": "1733968273"
+    },
+    {
+        "flow_rate": 9.54,
+        "id": 24,
+        "temperature": 24.32,
+        "timestamp": "1733968306"
+    },
+    {
+        "flow_rate": 3.72,
+        "id": 25,
+        "temperature": 24.32,
+        "timestamp": "1733968310"
+    },
+    {
+        "flow_rate": 12.03,
+        "id": 26,
+        "temperature": 24.32,
+        "timestamp": "1733968312"
+    },
+    {
+        "flow_rate": 5.62,
+        "id": 27,
+        "temperature": 24.32,
+        "timestamp": "1733968314"
+    },
+    {
+        "flow_rate": 12.74,
+        "id": 28,
+        "temperature": 24.32,
+        "timestamp": "1733968308"
+    },
+    {
+        "flow_rate": 9.22,
+        "id": 29,
+        "temperature": 24.33,
+        "timestamp": "1733968347"
+    },
+    {
+        "flow_rate": 19.66,
+        "id": 30,
+        "temperature": 24.36,
+        "timestamp": "1733968349"
+    },
+    {
+        "flow_rate": 10.65,
+        "id": 31,
+        "temperature": 24.38,
+        "timestamp": "1733968351"
+    },
+    {
+        "flow_rate": 1.79,
+        "id": 32,
+        "temperature": 24.57,
+        "timestamp": "1733968354"
+    },
+    {
+        "flow_rate": 13.67,
+        "id": 33,
+        "temperature": 28.05,
+        "timestamp": "1733968356"
+    },
+    {
+        "flow_rate": 1.87,
+        "id": 34,
+        "temperature": 26.12,
+        "timestamp": "1733968421"
+    },
+    {
+        "flow_rate": 13.74,
+        "id": 35,
+        "temperature": 26.09,
+        "timestamp": "1733968422"
+    },
+    {
+        "flow_rate": 19.18,
+        "id": 36,
+        "temperature": 26.07,
+        "timestamp": "1733968427"
+    },
+    {
+        "flow_rate": 8.91,
+        "id": 37,
+        "temperature": 25.98,
+        "timestamp": "1733968428"
+    },
+    {
+        "flow_rate": 15.58,
+        "id": 38,
+        "temperature": 25.96,
+        "timestamp": "1733968429"
+    },
+    {
+        "flow_rate": 7.87,
+        "id": 39,
+        "temperature": 25.13,
+        "timestamp": "1733968512"
+    },
+    {
+        "flow_rate": 12.18,
+        "id": 40,
+        "temperature": 25.12,
+        "timestamp": "1733968513"
+    },
+    {
+        "flow_rate": 17.5,
+        "id": 41,
+        "temperature": 25.12,
+        "timestamp": "1733968516"
+    },
+    {
+        "flow_rate": 10.03,
+        "id": 42,
+        "temperature": 25.12,
+        "timestamp": "1733968517"
+    },
+    {
+        "flow_rate": 2.97,
+        "id": 43,
+        "temperature": 25.12,
+        "timestamp": "1733968521"
+    },
+    {
+        "flow_rate": 5.8,
+        "id": 44,
+        "temperature": 25.1,
+        "timestamp": "1733968523"
+    },
+    {
+        "flow_rate": 17.96,
+        "id": 45,
+        "temperature": 25.09,
+        "timestamp": "1733968524"
+    },
+    {
+        "flow_rate": 7.52,
+        "id": 46,
+        "temperature": 25.09,
+        "timestamp": "1733968525"
+    },
+    {
+        "flow_rate": 14.52,
+        "id": 47,
+        "temperature": 25.08,
+        "timestamp": "1733968526"
+    },
+    {
+        "flow_rate": 3.56,
+        "id": 48,
+        "temperature": 25.08,
+        "timestamp": "1733968527"
+    },
+    {
+        "flow_rate": 13.53,
+        "id": 49,
+        "temperature": 25.07,
+        "timestamp": "1733968528"
+    },
+    {
+        "flow_rate": 8.56,
+        "id": 50,
+        "temperature": 25.07,
+        "timestamp": "1733968529"
+    },
+    {
+        "flow_rate": 15.0,
+        "id": 51,
+        "temperature": 25.07,
+        "timestamp": "1733968530"
+    },
+    {
+        "flow_rate": 17.14,
+        "id": 52,
+        "temperature": 25.06,
+        "timestamp": "1733968531"
+    },
+    {
+        "flow_rate": 14.16,
+        "id": 53,
+        "temperature": 25.05,
+        "timestamp": "1733968533"
+    },
+    {
+        "flow_rate": 4.73,
+        "id": 54,
+        "temperature": 25.05,
+        "timestamp": "1733968532"
+    },
+    {
+        "flow_rate": 8.74,
+        "id": 55,
+        "temperature": 25.04,
+        "timestamp": "1733968534"
+    },
+    {
+        "flow_rate": 7.42,
+        "id": 56,
+        "temperature": 25.03,
+        "timestamp": "1733968536"
+    },
+    {
+        "flow_rate": 6.54,
+        "id": 57,
+        "temperature": 25.03,
+        "timestamp": "1733968537"
+    },
+    {
+        "flow_rate": 9.29,
+        "id": 58,
+        "temperature": 25.02,
+        "timestamp": "1733968538"
+    },
+    {
+        "flow_rate": 7.91,
+        "id": 59,
+        "temperature": 25.01,
+        "timestamp": "1733968539"
+    },
+    {
+        "flow_rate": 14.02,
+        "id": 60,
+        "temperature": 25.01,
+        "timestamp": "1733968540"
+    },
+    {
+        "flow_rate": 5.69,
+        "id": 61,
+        "temperature": 25.0,
+        "timestamp": "1733968542"
+    },
+    {
+        "flow_rate": 3.6,
+        "id": 62,
+        "temperature": 24.99,
+        "timestamp": "1733968543"
+    },
+    {
+        "flow_rate": 13.53,
+        "id": 63,
+        "temperature": 24.99,
+        "timestamp": "1733968544"
+    },
+    {
+        "flow_rate": 16.89,
+        "id": 64,
+        "temperature": 24.99,
+        "timestamp": "1733968545"
+    },
+    {
+        "flow_rate": 15.52,
+        "id": 65,
+        "temperature": 24.98,
+        "timestamp": "1733968546"
+    },
+    {
+        "flow_rate": 16.79,
+        "id": 66,
+        "temperature": 24.98,
+        "timestamp": "1733968547"
+    },
+    {
+        "flow_rate": 7.98,
+        "id": 67,
+        "temperature": 24.97,
+        "timestamp": "1733968548"
+    },
+    {
+        "flow_rate": 4.37,
+        "id": 68,
+        "temperature": 24.97,
+        "timestamp": "1733968549"
+    },
+    {
+        "flow_rate": 14.15,
+        "id": 69,
+        "temperature": 24.97,
+        "timestamp": "1733968551"
+    },
+    {
+        "flow_rate": 18.38,
+        "id": 70,
+        "temperature": 24.96,
+        "timestamp": "1733968552"
+    },
+    {
+        "flow_rate": 5.31,
+        "id": 71,
+        "temperature": 24.96,
+        "timestamp": "1733968553"
+    },
+    {
+        "flow_rate": 2.31,
+        "id": 72,
+        "temperature": 24.95,
+        "timestamp": "1733968554"
+    },
+    {
+        "flow_rate": 1.43,
+        "id": 73,
+        "temperature": 24.96,
+        "timestamp": "1733968555"
+    },
+    {
+        "flow_rate": 8.37,
+        "id": 74,
+        "temperature": 24.95,
+        "timestamp": "1733968556"
+    },
+    {
+        "flow_rate": 8.11,
+        "id": 75,
+        "temperature": 24.96,
+        "timestamp": "1733968557"
+    },
+    {
+        "flow_rate": 16.08,
+        "id": 76,
+        "temperature": 24.95,
+        "timestamp": "1733968559"
+    },
+    {
+        "flow_rate": 19.61,
+        "id": 77,
+        "temperature": 24.95,
+        "timestamp": "1733968560"
+    },
+    {
+        "flow_rate": 1.98,
+        "id": 78,
+        "temperature": 24.95,
+        "timestamp": "1733968561"
+    },
+    {
+        "flow_rate": 6.88,
+        "id": 79,
+        "temperature": 24.95,
+        "timestamp": "1733968565"
+    },
+    {
+        "flow_rate": 10.33,
+        "id": 80,
+        "temperature": 24.93,
+        "timestamp": "1733968566"
+    },
+    {
+        "flow_rate": 10.47,
+        "id": 81,
+        "temperature": 24.94,
+        "timestamp": "1733968568"
+    },
+    {
+        "flow_rate": 16.81,
+        "id": 82,
+        "temperature": 24.94,
+        "timestamp": "1733968569"
+    },
+    {
+        "flow_rate": 18.06,
+        "id": 83,
+        "temperature": 24.93,
+        "timestamp": "1733968572"
+    },
+    {
+        "flow_rate": 12.11,
+        "id": 84,
+        "temperature": 24.93,
+        "timestamp": "1733968573"
+    },
+    {
+        "flow_rate": 4.12,
+        "id": 85,
+        "temperature": 24.93,
+        "timestamp": "1733968574"
+    },
+    {
+        "flow_rate": 2.19,
+        "id": 86,
+        "temperature": 24.93,
+        "timestamp": "1733968575"
+    },
+    {
+        "flow_rate": 15.85,
+        "id": 87,
+        "temperature": 24.92,
+        "timestamp": "1733968576"
+    },
+    {
+        "flow_rate": 12.46,
+        "id": 88,
+        "temperature": 24.92,
+        "timestamp": "1733968578"
+    },
+    {
+        "flow_rate": 18.22,
+        "id": 89,
+        "temperature": 24.91,
+        "timestamp": "1733968579"
+    },
+    {
+        "flow_rate": 17.27,
+        "id": 90,
+        "temperature": 24.91,
+        "timestamp": "1733968580"
+    },
+    {
+        "flow_rate": 5.62,
+        "id": 91,
+        "temperature": 24.9,
+        "timestamp": "1733968581"
+    },
+    {
+        "flow_rate": 14.52,
+        "id": 92,
+        "temperature": 24.9,
+        "timestamp": "1733968582"
+    },
+    {
+        "flow_rate": 14.76,
+        "id": 93,
+        "temperature": 24.89,
+        "timestamp": "1733968585"
+    },
+    {
+        "flow_rate": 1.44,
+        "id": 94,
+        "temperature": 24.87,
+        "timestamp": "1733968588"
+    },
+    {
+        "flow_rate": 14.6,
+        "id": 95,
+        "temperature": 24.87,
+        "timestamp": "1733968590"
+    },
+    {
+        "flow_rate": 10.0,
+        "id": 96,
+        "temperature": 24.86,
+        "timestamp": "1733968592"
+    },
+    {
+        "flow_rate": 9.7,
+        "id": 97,
+        "temperature": 24.87,
+        "timestamp": "1733968594"
+    },
+    {
+        "flow_rate": 12.27,
+        "id": 98,
+        "temperature": 24.86,
+        "timestamp": "1733968596"
+    },
+    {
+        "flow_rate": 3.76,
+        "id": 99,
+        "temperature": 24.86,
+        "timestamp": "1733968598"
+    },
+    {
+        "flow_rate": 5.43,
+        "id": 100,
+        "temperature": 24.85,
+        "timestamp": "1733968600"
+    },
+    {
+        "flow_rate": 17.88,
+        "id": 101,
+        "temperature": 24.84,
+        "timestamp": "1733968602"
+    },
+    {
+        "flow_rate": 5.44,
+        "id": 102,
+        "temperature": 24.84,
+        "timestamp": "1733968604"
+    },
+    {
+        "flow_rate": 12.75,
+        "id": 103,
+        "temperature": 24.84,
+        "timestamp": "1733968606"
+    },
+    {
+        "flow_rate": 17.09,
+        "id": 104,
+        "temperature": 24.84,
+        "timestamp": "1733968608"
+    },
+    {
+        "flow_rate": 11.53,
+        "id": 105,
+        "temperature": 24.83,
+        "timestamp": "1733968611"
+    },
+    {
+        "flow_rate": 1.99,
+        "id": 106,
+        "temperature": 24.83,
+        "timestamp": "1733968613"
+    },
+    {
+        "flow_rate": 17.07,
+        "id": 107,
+        "temperature": 24.83,
+        "timestamp": "1733968615"
+    },
+    {
+        "flow_rate": 17.66,
+        "id": 108,
+        "temperature": 24.84,
+        "timestamp": "1733968617"
+    },
+    {
+        "flow_rate": 14.72,
+        "id": 109,
+        "temperature": 24.83,
+        "timestamp": "1733968619"
+    },
+    {
+        "flow_rate": 5.46,
+        "id": 110,
+        "temperature": 24.83,
+        "timestamp": "1733968621"
+    },
+    {
+        "flow_rate": 13.89,
+        "id": 111,
+        "temperature": 24.31,
+        "timestamp": "1734362213"
+    },
+    {
+        "flow_rate": 1.85,
+        "id": 112,
+        "temperature": 24.31,
+        "timestamp": "1734362218"
+    },
+    {
+        "flow_rate": 8.56,
+        "id": 113,
+        "temperature": 24.31,
+        "timestamp": "1734362220"
+    },
+    {
+        "flow_rate": 13.31,
+        "id": 114,
+        "temperature": 24.3,
+        "timestamp": "1734362222"
+    },
+    {
+        "flow_rate": 12.78,
+        "id": 115,
+        "temperature": 24.3,
+        "timestamp": "1734362224"
+    },
+    {
+        "flow_rate": 8.42,
+        "id": 116,
+        "temperature": 24.3,
+        "timestamp": "1734362226"
+    },
+    {
+        "flow_rate": 19.83,
+        "id": 117,
+        "temperature": 24.3,
+        "timestamp": "1734362228"
+    },
+    {
+        "flow_rate": 3.27,
+        "id": 118,
+        "temperature": 29.25,
+        "timestamp": "1734362653"
+    },
+    {
+        "flow_rate": 3.53,
+        "id": 119,
+        "temperature": 25.85,
+        "timestamp": "1734362658"
+    },
+    {
+        "flow_rate": 2.09,
+        "id": 120,
+        "temperature": 25.85,
+        "timestamp": "1734362656"
+    },
+    {
+        "flow_rate": 16.73,
+        "id": 121,
+        "temperature": 29.64,
+        "timestamp": "1734362660"
+    },
+    {
+        "flow_rate": 6.51,
+        "id": 122,
+        "temperature": 31.48,
+        "timestamp": "1734362662"
+    },
+    {
+        "flow_rate": 10.53,
+        "id": 123,
+        "temperature": 30.99,
+        "timestamp": "1734362664"
+    },
+    {
+        "flow_rate": 5.3,
+        "id": 124,
+        "temperature": 26.2,
+        "timestamp": "1734362759"
+    },
+    {
+        "flow_rate": 5.54,
+        "id": 125,
+        "temperature": 26.19,
+        "timestamp": "1734362761"
+    },
+    {
+        "flow_rate": 7.71,
+        "id": 126,
+        "temperature": 26.17,
+        "timestamp": "1734362763"
+    },
+    {
+        "flow_rate": 5.53,
+        "id": 127,
+        "temperature": 26.15,
+        "timestamp": "1734362765"
+    },
+    {
+        "flow_rate": 11.71,
+        "id": 128,
+        "temperature": 26.15,
+        "timestamp": "1734362767"
+    },
+    {
+        "flow_rate": 4.85,
+        "id": 129,
+        "temperature": 26.13,
+        "timestamp": "1734362769"
+    },
+    {
+        "flow_rate": 9.46,
+        "id": 130,
+        "temperature": 26.11,
+        "timestamp": "1734362771"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 131,
+        "temperature": 29.85,
+        "timestamp": "1734365335"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 132,
+        "temperature": 29.76,
+        "timestamp": "1734365337"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 133,
+        "temperature": 29.68,
+        "timestamp": "1734365339"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 134,
+        "temperature": 29.58,
+        "timestamp": "1734365341"
+    },
+    {
+        "flow_rate": 77.6,
+        "id": 135,
+        "temperature": 29.34,
+        "timestamp": "1734365343"
+    },
+    {
+        "flow_rate": 45.73,
+        "id": 136,
+        "temperature": 29.25,
+        "timestamp": "1734365345"
+    },
+    {
+        "flow_rate": 76.93,
+        "id": 137,
+        "temperature": 29.14,
+        "timestamp": "1734365348"
+    },
+    {
+        "flow_rate": 36.8,
+        "id": 138,
+        "temperature": 29.03,
+        "timestamp": "1734365350"
+    },
+    {
+        "flow_rate": 9.2,
+        "id": 139,
+        "temperature": 28.93,
+        "timestamp": "1734365352"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 140,
+        "temperature": 28.83,
+        "timestamp": "1734365354"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 141,
+        "temperature": 29.0,
+        "timestamp": "1734365356"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 142,
+        "temperature": 30.91,
+        "timestamp": "1734365358"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 143,
+        "temperature": 30.83,
+        "timestamp": "1734365360"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 144,
+        "temperature": 30.46,
+        "timestamp": "1734365362"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 145,
+        "temperature": 30.16,
+        "timestamp": "1734365364"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 146,
+        "temperature": 29.91,
+        "timestamp": "1734365366"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 147,
+        "temperature": 29.71,
+        "timestamp": "1734365368"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 148,
+        "temperature": 29.5,
+        "timestamp": "1734365370"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 149,
+        "temperature": 29.35,
+        "timestamp": "1734365373"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 150,
+        "temperature": 29.19,
+        "timestamp": "1734365375"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 151,
+        "temperature": 29.04,
+        "timestamp": "1734365377"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 152,
+        "temperature": 28.9,
+        "timestamp": "1734365379"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 153,
+        "temperature": 28.77,
+        "timestamp": "1734365381"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 154,
+        "temperature": 28.58,
+        "timestamp": "1734365385"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 155,
+        "temperature": 28.4,
+        "timestamp": "1734365387"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 156,
+        "temperature": 28.31,
+        "timestamp": "1734365389"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 157,
+        "temperature": 28.2,
+        "timestamp": "1734365391"
+    },
+    {
+        "flow_rate": 0.0,
+        "id": 158,
+        "temperature": 28.11,
+        "timestamp": "1734365393"
+    },
+    {
+        "flow_rate": 5.87,
+        "id": 159,
+        "temperature": 28.02,
+        "timestamp": "1734365396"
+    },
+    {
+        "flow_rate": 72.0,
+        "id": 160,
+        "temperature": 27.85,
+        "timestamp": "1734365398"
+    },
+    {
+        "flow_rate": 58.8,
+        "id": 161,
+        "temperature": 27.74,
+        "timestamp": "1734365400"
+    },
+    {
+        "flow_rate": 114.53,
+        "id": 162,
+        "temperature": 27.63,
+        "timestamp": "1734365402"
+    },
+    {
+        "flow_rate": 119.87,
+        "id": 163,
+        "temperature": 27.53,
+        "timestamp": "1734365404"
+    },
+    {
+        "flow_rate": 36.8,
+        "id": 164,
+        "temperature": 27.44,
+        "timestamp": "1734365406"
+    },
+    {
+        "flow_rate": 8.8,
+        "id": 165,
+        "temperature": 27.35,
+        "timestamp": "1734365408"
+    }
+]
