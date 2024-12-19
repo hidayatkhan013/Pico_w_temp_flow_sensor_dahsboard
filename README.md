@@ -6,15 +6,15 @@ A comprehensive IoT solution for monitoring water flow and temperature using Ras
 
 ## System Architecture
 
-![System Architecture]("./images/achi.png")
+![System Architecture](./images/achi.png)
 
 ## System Flow
 
-![System Flow]("./images/flow.png")
+![System Flow](./images/flow.png)
 
 ## System Sequence Diagram
 
-![System Sequence]("./images/seq.png")
+![System Sequence](./images/seq.png)
 
 This system consists of several key components:
 - **Hardware Layer**: Pico W microcontroller with BMP280 temperature sensor and YF-S201 flow sensor
