@@ -1,4 +1,4 @@
-# Smart Water Monitoring System
+# Smart Water and Energy Consumption System
 
 A comprehensive IoT solution for monitoring water flow and temperature using Raspberry Pi Pico W, with real-time data visualization and analysis.
 
