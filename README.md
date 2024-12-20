@@ -88,10 +88,10 @@ This project provides a comprehensive solution for monitoring energy and water u
 
 ### Data:
 - SqLite file containing water and energy usage data.
-- Data should follow a structured format:
+- Data should follow a structured format
+- SqLite Data Sample
 
-```SqLite Data Sample
-```
+![Sql Data](https://github.com/user-attachments/assets/1f5d269a-7d1f-4bb0-8a5c-8ed78ab3cbd8)
 ![Graph](./image1.png)
 ![Graph](./image2.png)
 
