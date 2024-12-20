@@ -91,8 +91,8 @@ This project provides a comprehensive solution for monitoring energy and water u
 - Data should follow a structured format:
 
 ```SqLite Data Sample
-![Graph](./image1)
-![Graph](./image2)
+![Graph](./image1.png)
+![Graph](./image2.png)
 ```
 
 ---
