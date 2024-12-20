@@ -91,8 +91,7 @@ This project provides a comprehensive solution for monitoring energy and water u
 - Data should follow a structured format:
 
 ```SqLite Data Sample
-![IMAGE_DESCRIPTION](https://github.com/hidayatkhan013/Pico_w_temp_flow_sensor_dahsboard/blob/59d4beed75d81306ad4cbe1442428a58311d99ef/Simulator%20Screenshot%20-%20iPhone%2016%20-%202024-12-19%20at%2013.31.13.png)
-
+![Graph](./image1.png)
 ```
 
 ---
